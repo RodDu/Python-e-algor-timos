@@ -1,9 +1,9 @@
 import math
 
 # Entrada dos coeficientes a, b e c
-a = float(input("Digite o coeficiente a: "))
-b = float(input("Digite o coeficiente b: "))
-c = float(input("Digite o coeficiente c: "))
+a = float(int("Digite o coeficiente a: "))
+b = float(int("Digite o coeficiente b: "))
+c = float(int("Digite o coeficiente c: "))
 
 # Cálculo do discriminante
 delta = b**2 - 4*a*c
