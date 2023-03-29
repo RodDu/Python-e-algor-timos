@@ -1,21 +1,15 @@
-import math
+soma_idades = 0
+quantidade_individuos = 0
 
-# Entrada dos coeficientes a, b e c
-a = float(input("Digite o coeficiente a: "))
-b = float(input("Digite o coeficiente b: "))
-c = float(input("Digite o coeficiente c: "))
+while True:
+    idade = int(input("Informe a idade do indivíduo (ou 0 para encerrar): "))
+    if idade == 0:
+        break
+    soma_idades += idade
+    quantidade_individuos += 1
 
-# Cálculo do discriminante
-delta = b**2 - 4*a*c
-
-# Verificação do valor do discriminante e cálculo das raízes
-if delta < 0:
-    print("A equação não possui raízes reais.")
-elif delta == 0:
-    x = (-b)/(2*a)
-    print("A equação possui uma raiz real: x =", x)
+if quantidade_individuos > 0:
+    media_idades = soma_idades / quantidade_individuos
+    print("A idade média do grupo de indivíduos é: {:.2f}".format(media_idades))
 else:
-    x1 = (-b + math.sqrt(delta))/(2*a)
-    x2 = (-b - math.sqrt(delta))/(2*a)
-    print("A equação possui duas raízes reais: x1 =", x1, "e x2 =", x2)
-    
+    print("Não foi informada nenhuma idade.")
