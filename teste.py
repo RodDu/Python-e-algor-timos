@@ -1,15 +1,17 @@
-soma_idades = 0
-quantidade_individuos = 0
+contador = 0
+soma = 0
+num = 1
+media_pares = 0
+quantidade_pares = 0
+soma_pares = 0
 
-while True:
-    idade = int(input("Informe a idade do indivíduo (ou 0 para encerrar): "))
-    if idade == 0:
-        break
-    soma_idades += idade
-    quantidade_individuos += 1
-
-if quantidade_individuos > 0:
-    media_idades = soma_idades / quantidade_individuos
-    print("A idade média do grupo de indivíduos é: {:.2f}".format(media_idades))
+while num != 0:
+    num = int(input(""))
+    soma = soma + num
+    contador += 1
+    if num % 2 == 0:
+        soma_pares += num
+        quantidade_pares += 1
+ 
 else:
-    print("Não foi informada nenhuma idade.")
+    print(soma, contador-1, "%.2f" % (soma/contador-1), soma_pares / quantidade_pares)
