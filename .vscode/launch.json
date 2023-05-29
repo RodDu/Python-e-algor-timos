@@ -1,11 +1,26 @@
 {
-    "configurations": [
-        {
-            "name": "Python: File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "justMyCode": true
-        }
-    ]
+	"configurations": [
+		{
+			"type": "aws-sam",
+			"request": "direct-invoke",
+			"name": "Python:testeDeSoma.calcula (python3.10)",
+			"invokeTarget": {
+				"target": "code",
+				"projectRoot": "${workspaceFolder}/",
+				"lambdaHandler": "testeDeSoma.calcula"
+			},
+			"lambda": {
+				"runtime": "python3.10",
+				"payload": {},
+				"environmentVariables": {}
+			}
+		},
+		{
+			"name": "Python: File",
+			"type": "python",
+			"request": "launch",
+			"program": "${file}",
+			"justMyCode": true
+		}
+	]
 }
