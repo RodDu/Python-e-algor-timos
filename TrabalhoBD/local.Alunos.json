@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "655136dbe72e667fd3525095"
+  },
+  "aluno": "Pedro Henrique Botter",
+  "nascimento": {
+    "$date": "2004-11-01T00:00:00.000Z"
+  },
+  "sexo": "M",
+  "turma": "1S2023",
+  "cor_favorita": "#fdb3ea"
+},
+{
+  "_id": {
+    "$oid": "65513c99e72e667fd3525096"
+  },
+  "aluno": "Grasiely da Silva Amaral",
+  "nascimento": {
+    "$date": "2005-03-28T00:00:00.000Z"
+  },
+  "sexo": "F",
+  "turma": "1S2023",
+  "cor_favorita": "#0e4db3"
+},
+{
+  "_id": {
+    "$oid": "65513c99e72e667fd3525097"
+  },
+  "aluno": "Rodrigo Flores Duarte",
+  "nascimento": {
+    "$date": "2000-03-13T00:00:00.000Z"
+  },
+  "sexo": "M",
+  "turma": "1S2023",
+  "cor_favorita": "#4272f5"
+},
+{
+  "_id": {
+    "$oid": "655164408bad490b8ef81d6b"
+  },
+  "aluno": "George",
+  "nascimento": {
+    "$date": "1983-07-16T00:00:00.000Z"
+  },
+  "sexo": "M",
+  "turma": "1S2020",
+  "cor_favorita": "#60e1bd"
+},
+{
+  "_id": {
+    "$oid": "6551667f8bad490b8ef81d6c"
+  },
+  "aluno": "Lesley",
+  "nascimento": {
+    "$date": "2002-04-12T00:00:00.000Z"
+  },
+  "sexo": "F",
+  "turma": "2S2020",
+  "cor_favorita": "#9022c7"
+},
+{
+  "_id": {
+    "$oid": "6551990e3cef337cb0e7949f"
+  },
+  "aluno": "Flávio Sentinele",
+  "nascimento": {
+    "$date": "2005-12-09T00:00:00.000Z"
+  },
+  "sexo": "M",
+  "turma": "2S2021",
+  "cor_favorita": "#62ef52"
+}]
